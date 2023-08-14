@@ -1,0 +1,111 @@
+*{
+    background-color: black;
+}
+body{
+    margin-top: 0px;
+    padding-top: 0%
+}
+
+.navbar{
+    border-radius: 30px;
+    background-color: white;
+   
+   
+   
+}
+.glow-text:hover {
+    text-shadow: 0 0 10px , white
+}
+ ul{
+    border-radius: 30px;
+cursor: pointer;
+transition: text-shadow 0.3s;
+background-color: white;
+display: flex;
+padding-left: 0px;
+padding-right: 0px;
+justify-content: right;
+font-size: 20px;
+color: black;
+list-style-type: none;
+margin-right: 20px;
+height: 70px;
+margin-top: 10px;
+
+}
+a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+
+li{
+    
+    background-color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+.wel{
+    margin-top: -40px;
+  
+    margin-left: 815px;
+    margin-top: -362px;
+}
+.img{
+  
+    margin-left: 1006px;
+
+}
+
+
+
+.animated-text {
+    padding-left: 10px;
+    margin-left: -588px;
+    text-align: center;
+    margin-top: 197px;
+    color: white;
+}
+
+.text-animation {
+    animation: slide-in 2s ease-in-out infinite;
+    background-color: transparent;
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
+.card{
+    border-radius: 20px;
+    margin-top: -360px;
+    margin-left: 800px;
+}
+img{
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
